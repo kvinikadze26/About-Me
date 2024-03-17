@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 60px auto;
+    max-width: 800px;
+}
+.h1 {
+    font-size: 96px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    text-align: center;
+}
+.backpage {
+    color: blueviolet;
+    text-align: center;
+    display: block;
+}
+.about-para {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.about-para p {
+    min-width: 150px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px;
+    background: #f5f2fe;
+}
+#contact-me h2 {
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+}
+.Email {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
